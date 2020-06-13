@@ -6,31 +6,37 @@
 	<link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
-	<button id="novo-jogo">Novo Jogo</button>
-	<button id="nova-rodada">Nova Rodada</button>
-
-	<div id="jog1">
-		<p id="id"></p>
-		<p id="pontuacao"></p>
-		<fieldset id="movimentos">
-			<button value="pedra">Pedra</button>
-			<button value="papel">Papel</button>
-			<button value="tesoura">Tesoura</button>
-		</fieldset>
+	<div class="novo">
+		<button id="novo-jogo">Novo Jogo</button>
+		<button id="nova-rodada">Nova Rodada</button>
 	</div>
 
-	<div id="jog2">
-		<p id="id"></p>
-		<p id="pontuacao"></p>
-		<fieldset id="movimentos">
-			<button value="pedra">Pedra</button>
-			<button value="papel">Papel</button>
-			<button value="tesoura">Tesoura</button>
-		</fieldset>
-	</div>
+	<div class="jogs">
+		<div id="jog1">
+			<p id="id"></p>
+			<p id="pontuacao"></p>
+			<fieldset id="movimentos">
+				<button value="pedra">Pedra</button>
+				<button value="papel">Papel</button>
+				<button value="tesoura">Tesoura</button>
+			</fieldset>
+		</div>
 
-	<p id="qtde-movimentos"></p>
-	<p id="mensagens"></p>
+		<div id="jog2">
+			<p id="id"></p>
+			<p id="pontuacao"></p>
+			<fieldset id="movimentos">
+				<button value="pedra">Pedra</button>
+				<button value="papel">Papel</button>
+				<button value="tesoura">Tesoura</button>
+			</fieldset>
+		</div>
+	</div>
+	
+	<div class="jogo">
+		<p id="qtde-movimentos"></p>
+		<p id="mensagens"></p>
+	</div>
 	<script src="./script.js"></script>
 </body>
 </html>

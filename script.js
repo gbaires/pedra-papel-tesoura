@@ -65,12 +65,12 @@ function novoJogo() {
 
 function novaRodada() {
 	jog1MvtsEl.disabled = false;
-	msgsEl.innerText = `Esperando o movimento de ${jog1.id}`;
+	msgsEl.innerText = `Esperando o movimento de ${jog1.id}...`;
 }
 
 function lerMvtJog2() {
 	jog2MvtsEl.disabled = false;
-	msgsEl.innerText = `Esperando o movimento de ${jog2.id}`;
+	msgsEl.innerText = `Esperando o movimento de ${jog2.id}...`;
 }
 
 function definirResultado() {

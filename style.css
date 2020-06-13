@@ -1,0 +1,79 @@
+* {
+	margin: 0;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 16px;
+	color: #1f1f1f;
+}
+
+.novo {
+	display: flex;
+	justify-content: center;
+	padding: 20px 0 20px 20px;
+}
+
+.novo button {
+	width: 120px;
+	margin-right: 20px;
+	padding: 10px;
+	background: #2C5BDB;
+	color: #FFF;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	opacity: 1;
+	transition: all 0.2s;
+	cursor: pointer;
+}
+
+.novo button:hover {
+	opacity: 0.8;
+}
+
+.jogs {
+	display: flex;
+	padding: 10px;
+}
+
+.jogs div {
+	width: 50%;
+}
+
+.jogs p[id*="id"] {
+	font-weight: bold;
+}
+
+.jogs fieldset {
+	padding: 20px 0 20px 20px;
+	border: none;
+}
+
+.jogs fieldset button {
+	width: 100px;
+	margin-right: 20px;
+	padding: 10px;
+	background: #2C5BDB;
+	color: #FFF;
+	font-weight: bold;
+	border: 1px solid #2C5BDB;
+	outline: none;
+	border-radius: 10px;
+	transition: all 0.2s;
+	cursor: pointer;
+}
+
+.jogs fieldset button:hover {
+	background: #FFF;
+	color: #2C5BDB;
+}
+
+.jogo {
+	padding: 10px;
+}
+
+.jogo #mensagens {
+	padding-top: 40px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
